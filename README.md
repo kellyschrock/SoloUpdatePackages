@@ -18,7 +18,8 @@ usr/
         follow.py
         buttonManager.py
         multipoint.py
-        someOtherFile.py
+        shotManager.py
+        someNewSmartShot.py
 manifest.txt
 parameters.param
 ```
@@ -29,6 +30,27 @@ When you download this file and tell Solex to install it, the following happens:
 2.  The directories are enumerated, and files found in each are `scp`ed to the corresponding directory on the Solo.
 3.  The `parameters.param` file, if present, is loaded and each of the parameters specified in it are set on the Solo.
 
+### The `manifest.txt` file
+
+The `manifest.txt` file is there so you can put something in the package describing what it will do. Here's a sample
+
+```
+Awesome Update Number Three
+
+This update is awesome. It fixes yaw in a few of the smart shots, and adds a new Smart Shot to the Solo. Also it updates the
+firmware on the Solo so all of the LEDs glow red
+```
+
+### The `parameters.param` file
+
+The `parameters.param` file is optional. If included, it specifies parameters that can be set once the firmware is loaded. The
+format of this file is the same as a parameter file dumped from APM:
+
+```
+PARAM_NAME,value
+```
+
 That's about it.
+
 
 
