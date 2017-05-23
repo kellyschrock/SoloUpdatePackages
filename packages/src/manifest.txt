@@ -1,5 +1,4 @@
-Test Package
+Harmless test package
 
-This is a test package. It will put some files on your Solo. 
-
+This package will put files on your solo that don't hose anything up.
 
