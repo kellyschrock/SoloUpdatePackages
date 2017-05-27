@@ -1,4 +1,6 @@
-Harmless test package
+Yaw Fixes
 
-This package will put files on your solo that don't hose anything up.
+This package contains fixes for the yaw commands in several smart shots.
+Install them on your green-cube Solo, reboot, and yaw will work.
+
 
