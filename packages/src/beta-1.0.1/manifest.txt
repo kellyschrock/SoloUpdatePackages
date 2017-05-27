@@ -1,0 +1,10 @@
+Solo Beta 1.0.1
+
+NOTE: This is for green-cube Solos ONLY. Do not install this on a 
+stock Solo!
+
+This package contains the 1.0.1 release of the solo master/beta firmware, along
+with the associated .py files. Install this package, and then reboot.
+
+
+
