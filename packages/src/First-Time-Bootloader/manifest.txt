@@ -1,0 +1,6 @@
+First-Time bootloader update
+
+NOTE: This is for preparation for installing the green cube. If you're not planning on doing that,
+no need to install this package.
+
+
