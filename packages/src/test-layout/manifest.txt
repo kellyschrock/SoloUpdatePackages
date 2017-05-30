@@ -1,0 +1,4 @@
+Layout test
+
+Don't use this prior to Solex 1.4.5. Testing layout of the new package format.
+
