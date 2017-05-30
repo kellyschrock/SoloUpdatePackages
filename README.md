@@ -47,7 +47,7 @@ package.properties
 
 ## Files
 
-### ```mainfest.txt```
+### ```manifest.txt```
 This is a file that contains some info about the package. Just general information, possibly special instructions you expect the 
 user to read, that sort of thing.
 
