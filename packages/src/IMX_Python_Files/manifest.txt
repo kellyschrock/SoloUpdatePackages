@@ -1,0 +1,11 @@
+IMX companion computer files for Solo
+
+This package contains all the updated python files for the Solo's
+IMX companion computer.  These files only need to be loaded once,
+and that needs to take place prior to installing the Green Cube. 
+The only time these files will be removed and require redo is if
+you perform a complete factory reset of the Solo.
+1. Press the Install button below.
+2. Files will be written to the Solo's IMX
+3. Power cycle the Solo when complete.
+
