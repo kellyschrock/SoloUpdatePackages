@@ -1,6 +1,0 @@
-Yaw Fixes
-
-This package contains fixes for the yaw commands in several smart shots.
-Install them on your green-cube Solo, reboot, and yaw will work.
-
-
