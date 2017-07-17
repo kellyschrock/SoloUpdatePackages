@@ -1,0 +1,9 @@
+CH7 Out Camera Trigger
+(July 10, 2017 / MCL)
+
+This package contain parameters required to trigger a conventional camera attached to the Solo using the controller and application camera trigger buttons.  When you push the camera trigger button on the controller (pushing in the paddle) or tap the camera trigger button on the application, it will also trigger ArduPilot's naitive camera trigger function. The parameters set by this package will send the camera trigger output to the CH7 output on the accessory bay.  The PWM output will go high to 1900 for 1/2 second, then back down low at 1100.  You can use this trigger with a variety of PWM based camera triggering devices or servos.  This will work even if you do not have a GoPro or gimbal connected!  This also has no impact or effect on the existing GoPro and gimbal controls.
+
+1. Press the Install button below.
+2. Parameters & files will be written to the Solo.
+3. Power cycle the Solo when complete.
+
