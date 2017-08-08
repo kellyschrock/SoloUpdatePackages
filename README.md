@@ -66,6 +66,7 @@ This is a file Solex uses as a guide for how to treat an update package. Here ar
 *   ```postinstall```: Specify the root name of a script to run _after_ installation of other files.
 *   ```reboot```: If ```true```, prompt the user to reboot after installation completes.
 *   ```postinstall.instructions```: Instructions for the user after they install the package. Could be anything, really.
+*   ```target.device```: Specifies which device the update should be installed to. Valid values are ```solo```, ```artoo```. If it's omitted, it defaults to ```solo```.
 *   ```required.param```: The name of a parameter the Solo is required to support before installation can proceed. For example, if the 
     package should only be installed on versions of the vehicle that support the ```BATTERY_SERIAL_NUM``` parameter, specify that here.
     At install time, Solex will check to see if the connected vehicle has a parameter matching that name. If it doesn't, it won't let the user install the package. This is to prevent someone installing a software update that doesn't belong on an older Solo, for example.
