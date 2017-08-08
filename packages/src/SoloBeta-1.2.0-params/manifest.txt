@@ -1,7 +1,0 @@
-Solo Beta 1.2 params
-
-NOTE: This is for green-cube Solos ONLY. Do not install this on a 
-stock Solo!
-
-This package contains parameters for the SoloBeta 1.2 firmware.
-

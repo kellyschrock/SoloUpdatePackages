@@ -1,0 +1,25 @@
+HERE GPS/Compass Parameters
+(July 17, 2017 / MCL)
+
+This package contains the parameters required for the using the ProfiCNC HERE external GPS & compass on your Solo.  This will set the compass parameters as required by the HERE. The one requried parameter that is different from the stock compass is COMPASS_ORIENT set to 0. This will verify several other imporant general compass parameters are set properly too. All are listed below. If you have just installed the HERE, have made hardware changes, moved the HERE position around, or have done a parameter reset, you MUST do a compass calibration before your next flight. Compass calibration must be done outdoors in an open area, away from buildings, vehicles, and other sources of magnetic interference. A reboot is required after calibrating the compass.
+
+1. Press the Install button below.
+2. Parameters will be written to the Solo's Pixhawk.
+3. Power cycle the Solo when complete.
+
+-------------------------------------
+Parameters included in this package:
+-------------------------------------
+COMPASS_CAL_FIT,16
+COMPASS_EXTERN2,0
+COMPASS_EXTERN3,0
+COMPASS_EXTERNAL,1
+COMPASS_LEARN,0
+COMPASS_ORIENT,0
+COMPASS_ORIENT2,0
+COMPASS_ORIENT3,0
+COMPASS_PRIMARY,0
+COMPASS_USE,1
+COMPASS_USE2,1
+COMPASS_USE3,0
+MAG_ENABLE,1
