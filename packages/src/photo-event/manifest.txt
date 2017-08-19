@@ -1,0 +1,7 @@
+Photo Events
+
+Whenever a photo is taken on the Solo in Photo mode, send a message to connected apps to notify them of the location and time. This is used with the Geotag Editor, an add-on, but can be useful without it.
+
+1. Press the Install button below.
+2. Power cycle the Solo when complete.
+
