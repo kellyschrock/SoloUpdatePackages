@@ -67,9 +67,11 @@ This is a file Solex uses as a guide for how to treat an update package. Here ar
 *   ```reboot```: If ```true```, prompt the user to reboot after installation completes.
 *   ```postinstall.instructions```: Instructions for the user after they install the package. Could be anything, really.
 *   ```target.device```: Specifies which device the update should be installed to. Valid values are ```solo```, ```artoo```. If it's omitted, it defaults to ```solo```.
-*   ```required.param```: The name of a parameter the Solo is required to support before installation can proceed. For example, if the 
-    package should only be installed on versions of the vehicle that support the ```BATTERY_SERIAL_NUM``` parameter, specify that here.
-    At install time, Solex will check to see if the connected vehicle has a parameter matching that name. If it doesn't, it won't let the user install the package. This is to prevent someone installing a software update that doesn't belong on an older Solo, for example.
+*   ```compat```: Specifies compatibility of this package. There are 3 possible values:
+    *   ```2.0```: Package can only be installed on old "black cube" Solos.
+    *   ```2.1```: Package can only be installed on new Solos with a 2.1 Cube (green or black)
+    *   ```all```: Package can be installed on either Solo version. This is the default.
+*   ```required.param```: Deprecated. If present, specifies a parameter that must be present in order to install this package. You should prefer to use the ```compat``` property over this one, although you can specify both for maximum pickiness.
 
 Here's a sample:
 ```
@@ -77,7 +79,7 @@ preinstall=preinstall.sh
 postinstall=postinstall.sh
 reboot=true
 postinstall.instructions=Dunk your Solo in cold water. Then lay it out in the sun to dry.
-required.param=BATT_SERIAL_NUM
+compat=2.1
 ```
 
 When you download this file and tell Solex to install it, the following happens:
