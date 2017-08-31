@@ -1,5 +1,5 @@
-ArduCopter 3.5.0+ Parameters 
-(July 17, 2017 / MCL)
+ArduCopter 3.5.2+ Parameters 
+(August 30, 2017 / MCL)
 
 This package contains the required Solo specific ArduCopter parameters for ArduCopter 3.5.0 and higher. The Pixhawk firmware and the python files for smart shots are not included in this package. It will only set parameters.  These parameters are those that differ from ArduCopter 3.5.0+ defaults and are required for the 3DR Solo to operate properly. 
 

@@ -1,6 +1,19 @@
 #
 # This is the entry point for shotmanager on Solo using Dronekit-Python
 
+# ************************************************************
+# *                                                          *
+# *  Solo Pixhawk 2.1 Green Cube and ArduCopter 3.5 Upgrade  *
+# *                                                          *
+# ************************************************************
+#
+# Updated July 29, 2017 by Matt Lawrence to be compatible with the Pixhawk 2.1 Green Cube and ArduCopter 3.5+
+# - If copter is in ArduCopter RTL mode, it will no longer switch the returnHome.py smart shot
+# - If radio contact lost, enter ArduCopter RTL mode instead of returnHome.py
+# - Disables using rewind as part of failsafes
+#
+
+
 # Python native imports
 import os
 from os import sys, path

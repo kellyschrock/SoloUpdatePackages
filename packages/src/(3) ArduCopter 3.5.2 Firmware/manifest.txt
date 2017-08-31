@@ -1,7 +1,7 @@
-ArduCopter 3.5.0 Firmware
-(July 17, 2017 / MCL)
+ArduCopter 3.5.2 Firmware
+(August 30, 2017 / MCL)
 
-This package contains ArduCopter 3.5.0 firmware for the Solo's Pixhawk 2.1 Green Cube. This is the Pixhawk firmware only. The python files for smart shots, and the parameters file are not included in this package. It will only install the firmware. This is not compatible with a stock Solo Pixhawk 2.0!
+This package contains ArduCopter 3.5.2 firmware for the Solo's Pixhawk 2.1 Green Cube. This is the Pixhawk firmware only. The python files for smart shots, and the parameters file are not included in this package. It will only install the firmware. This is not compatible with a stock Solo Pixhawk 2.0!
 
 1. Press the Install button below. Firmware will be copied to the Solo.
 2. When prompted, power cycle the Solo.

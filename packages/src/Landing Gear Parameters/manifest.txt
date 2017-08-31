@@ -1,27 +1,28 @@
 Retractable Landing Skid Parameters
-(July 8, 2017 / MCL)
+(August 30, 2017 / MCL)
 
-This package contains the required parameters to use retractable landing skids. This is compatible with both the stock Solo firmware or ArduCopter 3.5 on the Green Cube.  The parameters it sets are listed below. You must verify these settings are appropriate to the retract servos you are installing! These are generic but apply to most.
+This package contains the required parameters to use retractable landing skids. This is compatible with both the stock Solo firmware or ArduCopter 3.5 on the Green Cube.  The parameters it sets are listed below. You must verify these settings are appropriate to the retract servos you are installing! These are generic but apply to most.  The do apply to the IMP Concepts landing gear kit.
 
 Stock Solo Firmware uses the following:
 CH7_OPT,29
-LGR_SERVO_DEPLOY,1900
-LGR_SERVO_RTRACT,1100
+LGR_SERVO_DEPLOY,1100
+LGR_SERVO_RTRACT,1900
 RC7_DZ,0
 RC7_FUNCTION,29
 RC7_MAX,1900
 RC7_MIN,1100
-RC7_REV,1
+RC7_REV,0
 RC7_TRIM,1500
 
 ArduCopter 3.5.0+ on the Green Cube uses the following:
 CH7_OPT,29
 LGR_SERVO_DEPLOY,1900
 LGR_SERVO_RTRACT,1100
+LGR_STARTUP,0
 RC7_DZ,0
 RC7_MAX,1900
 RC7_MIN,1100
-RC7_REVERSED,1
+RC7_REVERSED,0
 RC7_TRIM,1500
 SERVO7_FUNCTION,29
 SERVO7_MAX,1900

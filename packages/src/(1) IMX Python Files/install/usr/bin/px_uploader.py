@@ -1,4 +1,16 @@
 #!/usr/bin/env python
+
+# ************************************************************
+# *                                                          *
+# *  Solo Pixhawk 2.1 Green Cube and ArduCopter 3.5 Upgrade  *
+# *                                                          *
+# ************************************************************
+#
+# Updated July 29, 2017 by Matt Lawrence to be compatible with the Pixhawk 2.1 Green Cube and ArduCopter 3.5+
+# - This is the latest version of px_uploader.py from the ArduPilot px4 submodule
+#   This simply replaces the stock file on the Solo and is otherwise unmodified
+#
+
 ############################################################################
 #
 #   Copyright (c) 2012-2017 PX4 Development Team. All rights reserved.

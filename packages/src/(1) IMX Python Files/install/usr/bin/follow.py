@@ -8,6 +8,18 @@
 #  Altitude and Leash follow created by Jason Short 2/25/2016
 #  Copyright (c) 2016 3D Robotics. All rights reserved.
 
+
+# ************************************************************
+# *                                                          *
+# *  Solo Pixhawk 2.1 Green Cube and ArduCopter 3.5 Upgrade  *
+# *                                                          *
+# ************************************************************
+#
+# Updated July 29, 2017 by Matt Lawrence to be compatible with the Pixhawk 2.1 Green Cube and ArduCopter 3.5+
+# - Added use of MAV_CMD_CONDITION_YAW to control copter yaw during smart shots since MSG_MOUNT_CONTROL seems to be broken in ArduCopter 3.5
+#
+
+
 from dronekit import Vehicle, LocationGlobalRelative, VehicleMode
 
 from pymavlink import mavutil
