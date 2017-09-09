@@ -11,6 +11,8 @@ contain files to either be installed on the Solo, loaded into the Solo, or to do
 Scripts go here. If you need to run commands before or after installation, you can make scripts to do that, and 
 put them in this directory. They're referenced from the ```package.properties``` file, described below.
 
+If any extra preparation (creating directories, etc) needs to be done, it's this script that does it.
+
 ### ```params/```
 Parameter files go here. You can have any number of them, but you'll typically just have one. Parameter files are 
 in the expected format, where lines look something like this:
@@ -85,8 +87,12 @@ compat=2.1
 When you download this file and tell Solex to install it, the following happens:
 
 1.  The file is unzipped to a temp directory.
-2.  The directories are enumerated, and files found in each are `scp`ed to the corresponding directory on the Solo.
-3.  The `parameters.param` file, if present, is loaded and each of the parameters specified in it are set on the Solo.
+2.  The `preinstall` script, if any, is run. If it needs to abort the installation for some reason, it can return a non-zero
+    exit code. This will abort the entire installation process. Otherwise, it needs to return 0 for the installation to continue.
+3.  The directories under `install` are enumerated, and files found in each are `scp`ed to the corresponding directory on the Solo.
+4.  The `parameters.param` file, if present, is loaded and each of the parameters specified in it are set on the Solo.
+5.  The `postinstall` script, if any, is run. Like the `preinstall` script, it can abort the installation with a nonzero
+    exit code. But by this time, the files have already been copied and parameters loaded. So aborting an installation at this stage is unusual for a script to do. And if it needs to do it, it should take care to undo everything that's been done up to that point.
 
 That's about it.
 
