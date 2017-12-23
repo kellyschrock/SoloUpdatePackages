@@ -1,7 +1,7 @@
 ArduCopter 3.5.4 Firmware
-(December 18, 2017 / MCL)
+(December 23, 2017 / MCL)
 
-This package contains ArduCopter 3.5.4 firmware for the Solo's Pixhawk 2.1 Green Cube, with the Solo's requried default parameters built in. Since parmeter defaults are built in, when you do a parameter reset, it will put them back to the correct defaults.
+This package contains ArduCopter 3.5.4 firmware for the Solo's Pixhawk 2.1 Green Cube, with the Solo's requried default parameters built in. Since parmeter defaults are built in, when you do a parameter reset, it will put them back to the correct defaults. This also has a few patches that will be part of 3.5.5, but are included here in advance.
 
 The ArduCopter 3.5.x Parameter package is no longer needed with this firmware since it has them built in.  However, if you have the HERE or landing gear mods, you would need to reload those specific parameter packages after a parameter reset.  Those mods are obviously not built in by default.
 
