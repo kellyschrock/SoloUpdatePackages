@@ -1,5 +1,5 @@
 Open Solo 3.0.0 Clean Install (COPTER)
-(January 1, 2017 / MCL)
+(January 1, 2018 / MCL)
 
 This package contains Open Solo 3.0.0! This package will update the recovery partition (aka factory rest partition, aka golden image) of the IMX companion computer's SD card on the COPTER. It also tags it to execute a factory reset on the next reboot.  You will need to install the controller package as well if you haven't already. 
 
