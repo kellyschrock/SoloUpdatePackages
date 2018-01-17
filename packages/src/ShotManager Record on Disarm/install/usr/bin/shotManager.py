@@ -385,8 +385,8 @@ class ShotManager():
                     self.vehicle.mode = VehicleMode("LOITER")
 
                 # stop recording upon disarm (landing, hopefully)
-                if not armed:
-                    self.goproManager.handleRecordCommand(self.goproManager.captureMode, RECORD_COMMAND_STOP)
+                # if not armed:
+                #    self.goproManager.handleRecordCommand(self.goproManager.captureMode, RECORD_COMMAND_STOP)
 
                 # read home loc from vehicle
                 if armed:
