@@ -1,0 +1,26 @@
+ArduCopter 3.6-RC6 Firmware
+(July 25, 2018 / MCL)
+
+**FOR BETA TESTING ON GREEN CUBES ONLY!! **
+** This is not compatible with a stock Solo Pixhawk 2.0! **
+
+This package contains beta testing ArduCopter 3.6-RC6 firmware for the Solo's Pixhawk 2.1 Green Cube, with the Solo's required default parameters built in. Since parameter defaults are built in, when you do a parameter reset, it will put them back to the correct defaults.
+
+Installation Basic Instructions:
+1. Press the Install button below. Firmware will be copied to the Solo.
+2. When prompted, power cycle the Solo.
+3. Firmware will begin install on reboot.
+4. When complete, Solo will beep several times.
+5. Solo and controller will reconnect when complete.
+
+It is strongly recommended that after you complete this installation, you do a parameter reset. The following are the general steps:
+1. Parameter reset and reboot
+2. Install HERE or landing gear parameters if applicable and reboot.
+3. Level calibration and reboot.
+4. Compass calibration and reboot.
+
+A few things to be aware of:
+- If install process doesn't complete after 5 minutes, power cycle Solo.
+- A few people have had to power cycle 2-3 times. This is ok.
+- If solo & controller don't reconnect when done, power cycle both.
+
