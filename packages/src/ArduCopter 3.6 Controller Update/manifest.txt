@@ -1,0 +1,14 @@
+Controller Altitude Display Fix (ArduCopter 3.6+)
+(November 9, 2018 / MCL)
+
+**REQUIRES OPEN SOLO***
+Do not install this if you don't already have Open Solo installed.
+
+This package contains several compatibility updates for the controller to work with ArduCopter 3.6+.  In ArduCopter version 3.6 and higher, a change was made affecting the altitude displayed on the controller. Without this fix, the altitude will display you height above sea level rather than above ground.  If you're higher than 999ft, it will also max out at 999ft.  This also updates the controller to use the newest ArduCopter flight modes.
+
+This will work with older versions of ArduCopter as well, so it is backwards compatible.  The version displayed on the controller screen during boot will say v3.0.0-x-xxxxx, which reflects this is some commits ahead of the last release.  This is normal.
+
+1. Press the Install button below.
+3. Controller screen will eventually go black during install.
+4. When prompted, press A button to continue.
+5. Reboot controller and enjoy proper altitude display units.

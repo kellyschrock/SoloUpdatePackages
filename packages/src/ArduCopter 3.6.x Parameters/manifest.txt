@@ -1,11 +1,11 @@
 ArduCopter 3.6.x Parameters 
-(July 25, 2018 / MCL)
+(November 9, 2018 / MCL)
 
-**ARDUCOPER 3.6-RC6 and higher ONLY!!**
+**ARDUCOPER 3.6.1+ and higher ONLY!!**
 
 This package contains the required Solo specific ArduCopter parameters for ArduCopter 3.6-RC6 and higher for beta testing. 
 
-This is not required if you insalled ArduCopter 3.6-RC6 from Solex or SidePilot since these parameters are baked in for you.
+This is not required if you insalled ArduCopter 3.6.1 from Solex or SidePilot since these parameters are baked in for you.
 
 This is required if you load ArduCopter 3.6.x firmware that was not built specifically for the Solo because it will not have the Solo's required default values.  In such a case, you must load this package after doing a parameter reset, or after initially loading the firmware.
 
