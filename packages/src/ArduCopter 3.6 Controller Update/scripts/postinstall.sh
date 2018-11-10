@@ -2,7 +2,7 @@
 
 ## Check the files that were uploaded to the /firmware directory.
 packageValid() {
-    if [ -e /firmware/artoo_alt-fix.bin ]
+    if [ -e /firmware/artoo_copter37.bin ]
     then
         return 0
     else

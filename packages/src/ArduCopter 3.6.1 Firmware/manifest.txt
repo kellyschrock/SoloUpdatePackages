@@ -1,10 +1,14 @@
-ArduCopter 3.6-RC6 Firmware
-(July 25, 2018 / MCL)
+ArduCopter 3.6.1 Firmware
+(November 9, 2018 / MCL)
 
-**FOR BETA TESTING ON GREEN CUBES ONLY!! **
+**FOR BETA TESTING ON GREEN CUBES WITH OPEN SOLO ONLY!! **
 ** This is not compatible with a stock Solo Pixhawk 2.0! **
 
-This package contains beta testing ArduCopter 3.6-RC6 firmware for the Solo's Pixhawk 2.1 Green Cube, with the Solo's required default parameters built in. Since parameter defaults are built in, when you do a parameter reset, it will put them back to the correct defaults.
+This package contains ArduCopter 3.6.1 firmware for the Solo's Pixhawk 2.1 Green Cube, with the Solo's required default parameters built in. Since parameter defaults are built in, when you do a parameter reset, it will put them back to the correct defaults.
+
+Also included are several updated python files that will install on the IMX companion computer.  These files are needed to make use of the newer flight modes that didn't exist when the files were last updated.
+
+You should also install the ArduCopter 3.6 controller update package.  This will update the controller to make it compatible with ArduCopter 3.6.  All controller changes are backwards compatible with prior Open Solo and ArduCopter versions.
 
 Installation Basic Instructions:
 1. Press the Install button below. Firmware will be copied to the Solo.
