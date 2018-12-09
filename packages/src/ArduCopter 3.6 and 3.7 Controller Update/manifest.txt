@@ -1,0 +1,17 @@
+Controller Update for ArduCopter 3.6 & 3.7
+(December 8, 2018 / MCL)
+
+**REQUIRES OPEN SOLO***
+Do not install this if you don't already have Open Solo installed.
+
+This package contains several compatibility and feature updates for the controller to work with ArduCopter 3.6 and 3.7.
+- Altitude display on screen will be correct
+- New flight modes available and display properly
+- Short hold home button activates Smart RTL!
+
+This will work with older versions of ArduCopter as well, so it is backwards compatible.  The version displayed on the controller screen during boot will say v3.0.0-x-xxxxx, which reflects this is some commits ahead of the last release.  This is normal.
+
+1. Press the Install button below.
+3. Controller screen will eventually go black during install.
+4. When prompted, press A button to continue.
+5. Reboot controller and enjoy.
