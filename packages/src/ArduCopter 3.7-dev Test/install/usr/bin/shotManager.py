@@ -65,6 +65,7 @@ class ShotManager():
         self.batt_cell_diff_warned = False
         self.batt_capacity_warned = False
         self.batt_last_warned = time.time() + 60    # wait one minute before blabbering warnings
+        self.str_BattHealth = None
 
     def Start(self, vehicle):
         logger.log("+-+-+-+-+-+-+ Starting up %s +-+-+-+-+-+-+" % VERSION)
