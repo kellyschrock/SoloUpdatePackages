@@ -1,0 +1,7 @@
+ArduCopter 3.7-Dev Firmware Only
+(April 27, 2019 / MCL)
+
+** Compatible with stock cubes, black cubes, and green cubes **
+** You must already have Open Solo and the 3.7-dev package installed **
+
+If you've already installed the 3.7-dev package, this is for you.  This simply upgrades ArduCopter to a newer version as of 4/27/2019.  This does not install any python files or change anything else.
