@@ -1,10 +1,10 @@
 ArduCopter 3.7-Dev Testing
-(February 10, 2019 / MCL)
+(April 27, 2019 / MCL)
 
 ** Compatible with stock cubes, black cubes, and green cubes **
 ** REQUIRES OPEN SOLO ALREADY INSTALLED **
 
-This package contains ArduCopter Master 3.7-Dev firmware as of Sunday 2/10/2019, which now officially includes all required compatibility for the Solo. This is for early user beta testing.  You are a test pilot.
+This package contains ArduCopter Master 3.7-Dev firmware as of April 27,2019, which now officially includes all required compatibility for the Solo. This is for early user beta testing.  You are a test pilot.
 
 Also included are several updated python files that will install on the IMX companion computer.  These files are needed to make use of the newer flight modes that didn't exist when the files were last updated.  They also add compatibility for many ArduPilot firmware loading changes.
 
