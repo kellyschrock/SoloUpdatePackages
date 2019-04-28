@@ -1,0 +1,9 @@
+UPDATE FACTORY RESET PARTITION
+(April 27, 2019 / MCL)
+
+** Compatible with all solos **
+** Recommended only for Open Solo, but will work on the old 3DR firmware as well **
+
+This pacakage is only a script. This will put the clean unmodifided currently installed firmware into the factory reset partition. This will replace the old useless version that comes from 3DR.  If you are on Open Solo, this will eliminate the need for any reinstallation of firmware if you execute a factory reset.  It will come back to life ready to calibrate and fly.  Executing a factory reset will automatically reinstall the clean version for firmware to the system partition and resets the ArduCopter parameters for you.  This used to be part of the Open Solo 3.0.0 initial installation.  It is now a separate step for Open Solo 4 to eliminate a point of failure in installations.
+
+The script simply executes "sololink_config --make-golden".  You can do this from a command line too.
