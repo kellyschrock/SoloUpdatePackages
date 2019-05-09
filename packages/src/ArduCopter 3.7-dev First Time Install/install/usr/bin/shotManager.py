@@ -542,7 +542,7 @@ class ShotManager():
 
             # Warn if battery cell is low, differential too high, or capacity sucks
             if self.batt_cell_min < BATT_CELL_LOW_WARN and self.vehicle.system_status not in ['CRITICAL', 'EMERGENCY'] and self.batt_cell_low_warned == False:
-                str_BattHealth = "Warning, Low battery cell voltage: %1.23fV" % round((self.batt_cell_min * 0.001),2)
+                str_BattHealth = "Warning, Low battery cell voltage: %1.2fV" % round((self.batt_cell_min * 0.001),2)
                 self.batt_cell_low_warned = True
                 self.batt_last_warned = time.time()
             elif self.batt_cell_diff > BATT_CELL_DIFF_WARN and self.batt_cell_diff_warned == False:
