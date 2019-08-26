@@ -1,9 +1,9 @@
 ArduCopter 3.7-Dev Firmware Only
-(June 22, 2019 / MCL)
+(August 25, 2019 / MCL)
 
 ** Compatible with stock cubes, black cubes, and green cubes **
 ** You must already have Open Solo and the 3.7-dev package installed **
 
-If you've already installed the 3.7-dev package, this is for you.  This simply upgrades ArduCopter to a newer version as of 6/22/2019.  This does not install any python files or change anything else.
+If you've already installed the 3.7-dev package, this is for you.  This simply upgrades ArduCopter to a newer version as of 8/25/2019.  This does not install any python files or change anything else.
 
 NOTE: This will execute a parameter reset upon installation. This is to ensure the BRD_OPTIONS and ARMING_CHECK parameters are reset to their new defaults.  These are important settings that must be changed to these new defaults and a reset is the best way to ensure it happens for everyone. You will need to redo your calibrations and vehicle settings.
