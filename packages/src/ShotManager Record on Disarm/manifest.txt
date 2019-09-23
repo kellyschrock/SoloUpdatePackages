@@ -1,7 +1,0 @@
-ShotManager Record on Disarm
-
-Modifies shotManager.py behavior to allow recording to continue when the Solo disarms. Note that with this package installed, you have to remember to stop recording when you land.
-
-1. Press the Install button below.
-2. Power cycle the Solo when complete.
-
