@@ -1,7 +1,7 @@
 Open Solo 4-DEV Clean Install (COPTER)
-(Sept 23, 2019 / MCL)
+(Sept 28, 2019 / MCL)
 
-This package contains Open Solo 4-DEV for testing!  This build includes ArduCopter 4-dev (master) as of 9/22/2019.  This package will install Open Solo 4-dev on the copter only.  You must also install the controller package.
+This package contains Open Solo 4-DEV for testing!  This build includes ArduCopter 4-dev (master) as of 9/28/2019.  This package will install Open Solo 4-dev on the copter only.  You must also install the controller package.
 
 If you have not read the instructions on the Open Solo github site, please do so before executing this installation!
 http://www.github.com/opensolo/opensolo
