@@ -10,13 +10,26 @@ echo "***********************************"
 echo "UPDATE INITIATED $(date)"
 echo ""
 echo "Current Solo Versions:"
-cat /VERSION
-cat /PIX_VERSION
+
+if [ -e /VERSION ]
+then 
+    cat /VERSION
+fi
+
+if [ -e /PIX_VERSION]
+then
+    cat /PIX_VERSION
+fi
 
 echo ""
 echo "***********************************"
 echo "Current Firmware and Home directories:"
-ls -lhR /firmware
+
+if [ -d /firmware ]
+then
+    ls -lhR /firmware
+fi
+
 ls -lhR ~/
 
 echo ""
