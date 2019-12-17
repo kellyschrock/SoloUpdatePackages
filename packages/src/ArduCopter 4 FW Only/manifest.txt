@@ -1,8 +1,8 @@
-ArduCopter 4.0-RC2 Beta Firmware Update Only
-(Nov 11, 2019 / MCL)
+ArduCopter 4.0-RC3 Beta Firmware Update Only
+(December 17, 2019 / MCL)
 
 ** YOU MUST ALREADY BE RUNNING OPEN SOLO 4-DEV **
 
-This is only the ArduCopter firmware for the cube.  This package to facilitate future firmware upgrades for ArduCopter only.  This has no impact on the rest of the Solo or controller's firmware. ArduCopter 4 Beta firmware requires you have already installed Open Solo 4-dev.
+This is only the ArduCopter firmware for the cube.  This package is to facilitate future firmware upgrades for ArduCopter only.  This has no impact on the rest of the Solo or controller's firmware. ArduCopter 4 Beta firmware requires you have already installed Open Solo 4-dev.
 
 NOTE: This will execute a parameter reset upon installation. You will need to redo your calibrations and vehicle settings.
