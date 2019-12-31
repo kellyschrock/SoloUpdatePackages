@@ -1,8 +1,0 @@
-Open Solo 4-DEV Clean Install (CONTROLLER)
-(Oct 2, 2019 / MCL)
-
-This package contains Open Solo 4-DEV for testing!  This package will install Open Solo 4-dev on the controller only.  You must also install the copter package.
-
-If you have not read the instructions on the Open Solo github site, please do so before executing this installation.
-http://www.github.com/opensolo/opensolo
-

@@ -1,0 +1,8 @@
+Open Solo 4.0.0 Clean Install (CONTROLLER)
+(January 26, 2020 / MCL)
+
+This package contains Open Solo 4.0.0.  This package will install Open Solo 4 on the controller only.  You must also install the copter package.
+
+If you have not read the instructions on the Open Solo github site, please do so before executing this installation.
+http://www.github.com/opensolo/opensolo
+

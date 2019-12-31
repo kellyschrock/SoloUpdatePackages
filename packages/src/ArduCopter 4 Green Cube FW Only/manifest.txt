@@ -1,0 +1,8 @@
+ArduCopter 4.0.1 GREEN CUBE Firmware Update Only
+(January 26, 2020 / MCL)
+
+** YOU MUST ALREADY BE RUNNING OPEN SOLO 4.0.0 **
+
+This is only the ArduCopter firmware for the GREEN CUBE.  This package is to facilitate future firmware upgrades for ArduCopter only.  This has no impact on the rest of the Solo or controller's firmware. ArduCopter 4 firmware requires you have already installed Open Solo 4.
+
+NOTE: This will execute a parameter reset upon installation. You will need to redo your calibrations and vehicle settings.

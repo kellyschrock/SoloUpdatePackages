@@ -1,0 +1,8 @@
+Open Solo 4.0.0 Clean Install (COPTER)
+(January 26, 2020 / MCL)
+
+This package contains Open Solo 4.0.0.  This build includes ArduCopter 4.0.1, which is also the stable release of 1/25/2020.  This package will install Open Solo 4 on the copter only.  You must also install the controller package.
+
+If you have not read the instructions on the Open Solo github site, please do so before executing this installation!
+http://www.github.com/opensolo/opensolo
+
