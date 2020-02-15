@@ -1,5 +1,5 @@
-ArduCopter 4.0.1 GREEN CUBE Firmware Update Only
-(January 26, 2020 / MCL)
+ArduCopter 4.0.2 GREEN CUBE Firmware Update Only
+(February 15, 2020 / MCL)
 
 ** YOU MUST ALREADY BE RUNNING OPEN SOLO 4.0.0 **
 
